@@ -47,11 +47,6 @@ Without a key, the app runs in **offline demo mode** using saved example results
 (`demo_data.py`). You can also turn demo mode on in the sidebar as a backup if the
 Wi-Fi or API fails during a live demo.
 
-## Deploy (publishing bonus)
-1. Push this repo to GitHub.
-2. On [Streamlit Community Cloud](https://share.streamlit.io), create an app from the repo with `main.py` as the entry point.
-3. In the app's **Settings → Secrets**, paste `ANTHROPIC_API_KEY = "your-key"`.
-
 Anyone who opens the public app spends your API credit, so consider setting a
 monthly spend limit in the Claude Console.
 
