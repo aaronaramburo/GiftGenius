@@ -1,0 +1,11 @@
+# Never commit your API key
+.streamlit/secrets.toml
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local editor config
+.claude/
